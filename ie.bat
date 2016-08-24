@@ -1,0 +1,1 @@
+java -jar ./server/2.48.2/selenium-server-standalone.jar -role webdriver -port 8888 -hub http://localhost:9999/grid/register -browser "browserName=internet explorer,version=11,platform=WINDOWS,maxInstances=3"

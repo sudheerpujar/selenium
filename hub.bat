@@ -1,0 +1,1 @@
+ java -jar ./server/2.48.2/selenium-server-standalone.jar -role hub -port 9999

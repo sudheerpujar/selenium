@@ -1,0 +1,1 @@
+java -jar ./server/2.48.2/selenium-server-standalone.jar -role webdriver -port 6666 -hub http://localhost:9999/grid/register -browser "browserName=chrome,version=46.0.2490.71,platform=WINDOWS,maxInstances=3"

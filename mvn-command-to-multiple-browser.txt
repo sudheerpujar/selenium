@@ -1,0 +1,5 @@
+e:
+cd \development\serenity-demos\cucumber-webtests
+mvn verify -Dwebdriver.remote.driver=chrome -Dserenity.outputDirectory=E:\\runtime\\tomcat\\8.0.28\\webapps\\serenity\\chrome &
+mvn verify -Dwebdriver.remote.driver=firefox -Dserenity.outputDirectory=E:\\runtime\\tomcat\\8.0.28\\webapps\\serenity\\firefox &
+mvn verify -Dwebdriver.remote.driver=iexplorer -Dserenity.outputDirectory=E:\\runtime\\tomcat\\8.0.28\\webapps\\serenity\\iexplorer &
